@@ -1,0 +1,26 @@
+{
+  "name": "@recruitment-flow/agents",
+  "version": "1.0.0",
+  "description": "CrewAI agents for Recruitment Flow AI",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src --ext .ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "crewai": "^0.1.0",
+    "@langchain/core": "^0.1.0",
+    "@langchain/openai": "^0.1.0",
+    "@langchain/anthropic": "^0.1.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
